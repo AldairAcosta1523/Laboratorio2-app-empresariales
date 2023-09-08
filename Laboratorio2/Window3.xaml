@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="176,106,0,0" TextWrapping="Wrap" Text="Peso Maximo" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="516,105,0,0" TextWrapping="Wrap" Text="Placa" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,214,0,0" TextWrapping="Wrap" Text="Peso Vacio" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="151,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="481,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.438,-0.083"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Guardar" HorizontalAlignment="Center" Margin="0,311,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.183,-0.666"/>
+
     </Grid>
 </Window>

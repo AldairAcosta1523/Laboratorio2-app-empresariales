@@ -24,6 +24,7 @@
         <TextBox HorizontalAlignment="Left" Margin="542,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="542,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="542,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="419,252,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.183,-0.666"/>
 
     </Grid>
 </Window>

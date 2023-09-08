@@ -11,18 +11,18 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_Operaciones" Background="#FFEF9105" BorderBrush="White" Foreground="#FFF3F3F3">
                     <MenuItem Background="#FFEF9105" Header="Ingresos"></MenuItem>
-                    <MenuItem Background="#FFEF9105" Header="Ingresos"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Salida" Click="Salidas_Click"></MenuItem>
                 </MenuItem>
                 <MenuItem Header="_Mantenimiento" Background="#FFDE881F" BorderBrush="#FFEFEFEF" Foreground="White" Click="MenuItem_Click">
-                    <MenuItem Background="#FFEF9105" Header="Conductores"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Conductores" Click="Conductores_Click"></MenuItem>
                     <MenuItem Background="#FFEF9105" Header="Transportistas"></MenuItem>
-                    <MenuItem Background="#FFEF9105" Header="Camiones"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Camiones" Click="Camiones_Click"></MenuItem>
                     <MenuItem Background="#FFEF9105" Header="Productos"></MenuItem>
                 </MenuItem>
                 <MenuItem Header="_Reportes" Background="#FFE88F22" BorderBrush="White" Foreground="White" Click="MenuItem_Click_1">
                     <MenuItem Background="#FFEF9105" Header="Cargas"></MenuItem>
                     <MenuItem Background="#FFEF9105" Header="Ingresos"></MenuItem>
-                    <MenuItem Background="#FFEF9105" Header="Salidas" Click="Boton_salida"/>
+                    <MenuItem Background="#FFEF9105" Header="Salidas" Click="Reporte_Click"/>
 
                 </MenuItem>
             </Menu>

@@ -33,7 +33,28 @@ namespace Laboratorio2
         {
 
         }
-        private void Boton_salida(object sender, RoutedEventArgs e)
+        private void Salidas_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 salida = new Window2();
+            salida.Show();
+        }
 
-    }
+        private void Camiones_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 camion = new Window3();
+            camion.Show();
+        }
+
+        private void Conductores_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 conductor = new Window4();
+            conductor.Show();
+        }
+        private void Reportes_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 conductor = new Window5();
+            conductor.Show();
+        }
+    } 
+
 }
