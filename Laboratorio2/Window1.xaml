@@ -1,0 +1,32 @@
+﻿<Window x:Class="Laboratorio2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratorio2"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Operaciones" Background="#FFEF9105" BorderBrush="White" Foreground="#FFF3F3F3">
+                    <MenuItem Background="#FFEF9105" Header="Ingresos"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Ingresos"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Mantenimiento" Background="#FFDE881F" BorderBrush="#FFEFEFEF" Foreground="White" Click="MenuItem_Click">
+                    <MenuItem Background="#FFEF9105" Header="Conductores"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Transportistas"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Camiones"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Productos"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Reportes" Background="#FFE88F22" BorderBrush="White" Foreground="White" Click="MenuItem_Click_1">
+                    <MenuItem Background="#FFEF9105" Header="Cargas"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Ingresos"></MenuItem>
+                    <MenuItem Background="#FFEF9105" Header="Salidas" Click="Boton_salida"/>
+
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+
+    </Grid>
+</Window>

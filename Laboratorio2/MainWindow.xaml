@@ -1,4 +1,4 @@
-﻿<Window x:Class="Laboratorio2.MainWindow"
+﻿<Window x:Name="window" x:Class="Laboratorio2.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button />
+        <Label Content="Usuario" HorizontalAlignment="Center" Margin="0,168,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.25,0.658" />
+        <Label Content="Contraseña" HorizontalAlignment="Center" Margin="0,241,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.048,1.747"/>
+        <TextBox x:Name="textBoxUsuario" HorizontalAlignment="Center" Margin="0,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.125,1.567" TextChanged="TextBox_TextChanged_1"/>
+        <PasswordBox x:Name="passwordBoxContraseña" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" Width="160"/>
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,47,0,0" VerticalAlignment="Top" Width="100" Source="/Image/login.png"/>
+        <Button Content="LOGIN" Width="100" HorizontalAlignment="Center" Margin="0,326,0,0" VerticalAlignment="Top" Background="#FF059E00" BorderBrush="White" Foreground="#FFF9F9F9" Click="Button_Click_1"/>
     </Grid>
 </Window>

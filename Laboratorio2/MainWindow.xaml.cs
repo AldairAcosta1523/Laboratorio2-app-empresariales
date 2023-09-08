@@ -24,5 +24,33 @@ namespace Laboratorio2
         {
             InitializeComponent();
         }
+
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string usuario = textBoxUsuario.Text;
+            string contraseña = passwordBoxContraseña.Password;
+
+            if (usuario == "aldair" && contraseña == "123")
+            {
+                Window1 ventana1 = new Window1();
+                ventana1.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos. Inténtelo nuevamente.");
+            }
+        }
     }
 }
